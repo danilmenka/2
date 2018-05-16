@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/fin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <Button
+                    android:id="@+id/buttonTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="32dp"
+                    android:background="@color/colorGreen"
+                    android:onClick="myButton228"
+                    android:text="@string/button"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/lt2"
+                    tools:ignore="OnClick" />
+
+                <EditText
+                    android:id="@+id/plain4"
+                    android:layout_width="165dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:maxLength="8"
+                    android:text=""
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/topTextTwo" />
+
+                <EditText
+                    android:id="@+id/plain5"
+                    android:layout_width="165dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+
+                    android:digits="0,1,2,3,4,5,6,7,8,9,,"
+                    android:ems="10"
+                    android:inputType="phone"
+                    android:maxLength="8"
+                    android:text=""
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/topText2" />
+
+                <EditText
+
+                    android:id="@+id/plain6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:ems="10"
+                    android:hint="@string/notNecessary"
+                    android:inputType="phone"
+                    android:maxLength="8"
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="@color/colorGrey"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/topText3Two" />
+
+                <TextView
+                    android:id="@+id/lt2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/romanc__"
+                    android:text="@string/ru"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/plain6"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/plain6"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/topText3Two"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/romanc__"
+                    android:text="@string/top3"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ltTwo"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/result2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="16dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/colorGreen"
+                    android:textSize="40sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/buttonTwo"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/km2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/romanc__"
+                    android:text="@string/km"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/plain4"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/plain4"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/topTextTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/romanc__"
+                    android:text="@string/top4"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+
+                    android:id="@+id/ltTwo"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="8dp"
+                    android:fontFamily="@font/romanc__"
+                    android:text="@string/lt2"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/plain5"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/plain5"
+                    tools:ignore="MissingConstraints" />
+
+                <TextView
+                    android:id="@+id/topText2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/romanc__"
+                    android:text="@string/top5"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/km2"
+                    tools:ignore="MissingConstraints" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <Button
+                        android:id="@+id/button5"
+                        style="@style/Widget.AppCompat.Button"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@color/colorGreen"
+                        android:onClick="myButton3"
+                        android:text="@string/buttonTop1"
+
+
+                        />
+
+                    <Button
+                        android:id="@+id/button4"
+                        style="@style/Widget.AppCompat.Button.Borderless"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:clickable="false"
+                        android:text="@string/buttonTop2"
+                        android:textColor="@color/colorWhite" />
+                </LinearLayout>
+
+            </android.support.constraint.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Расчет расхода топлива</string>
+    <string name="top1">Введите значение пройденного пути:</string>
+    <string name="top4">Введите значение расстояния:</string>
+    <string name="top5">Введите значение среднего расхода топлива</string>
+    <string name="top2">Введите значение потраченного топлива:</string>
+    <string name="top3">Введите цену топлива:</string>
+    <string name="km">киллометров</string>
+    <string name="lt">литров</string>
+    <string name="lt2">л/100 км</string>
+    <string name="ru">рублей</string>
+    <string name="notNecessary">Необязательно</string>
+    <string name="button">Рассчитать</string>
+    <string name="buttonTop1">Рассход на 100км</string>
+    <string name="buttonTop2">Рассход на расстояние</string>
+</resources>
